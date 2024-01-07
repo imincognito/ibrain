@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Voice Chatbot</title>
+</head>
+<body>
+    <div id="chatbox">
+        <div id="chat"></div>
+        <div id="input-container">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+            <input type="file" id="voiceInput" accept="audio/*" capture="microphone">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
