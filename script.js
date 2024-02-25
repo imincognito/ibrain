@@ -9,13 +9,13 @@ let isSelfieCamera = false;
 simulateTerminalResponse('You are welcome, to the ibrain terminal.\n- Name: IBRAIN \n - Version: 4.0 \n- Doc: 29, October, 2023 \n- Developer: Makson.')
 setTimeout(() => simulateTerminalResponse('Please wait a while.'), 6000);
 setTimeout(() => simulateTerminalResponse('Loading...5s'), 11500);
-setTimeout(() => simulateTerminalResponse('Connecting nema.js...4s'), 13000);
-setTimeout(() => simulateTerminalResponse('Connecting anuseng.js...3s'),15000);
-setTimeout(() => simulateTerminalResponse('Setting up script.js...2s'), 16000);
-setTimeout(() => simulateTerminalResponse('Preparing secret conversation...1s'), 17000);
+setTimeout(() => simulateTerminalResponse('Connecting script.js...4s'), 13000);
+setTimeout(() => simulateTerminalResponse('Connecting makson.js...3s'),15000);
+setTimeout(() => simulateTerminalResponse('Setting up ip.js...2s'), 16000);
+setTimeout(() => simulateTerminalResponse('Preparing commands...1s'), 17000);
 setTimeout(() => simulateTerminalResponse('Just a second...0s'), 19000);
-setTimeout(() => simulateTerminalResponse('You are now connected with anuseng.js.'), 19500);
-setTimeout(() => simulateTerminalResponse('How are you, Nema?\n Please type me any:\n - Good \n - Bad'), 20900);
+setTimeout(() => simulateTerminalResponse('You are now connected with script.js.'), 19500);
+
 
 cmdInput.addEventListener('keydown', async (event) => {
     if (event.key === 'Enter') {
