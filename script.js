@@ -6,7 +6,7 @@ let maksonConnected = false;
 let isPasswordPrompted = false;
 let isSelfieCamera = false;
 
-simulateTerminalResponse('You are welcome, Nema, to the ibrain terminal.\n- Name: IBRAIN \n - Version: 4.0 \n- Doc: 29, October, 2023 \n- Developer: Makson.')
+simulateTerminalResponse('You are welcome, to the ibrain terminal.\n- Name: IBRAIN \n - Version: 4.0 \n- Doc: 29, October, 2023 \n- Developer: Makson.')
 setTimeout(() => simulateTerminalResponse('Please wait a while.'), 6000);
 setTimeout(() => simulateTerminalResponse('Loading...5s'), 11500);
 setTimeout(() => simulateTerminalResponse('Connecting nema.js...4s'), 13000);
