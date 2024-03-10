@@ -13,7 +13,7 @@ cmdInput.addEventListener('keydown', async (event) => {
     if (event.key === 'Enter') {
         const command = cmdInput.innerText.trim().toLowerCase();
         outputDiv.innerHTML += '<br><br>' + `<span style="color: #fff";>ANONYMOUS</span><span style="color: #fff"> |</span></span><span style="color: red">$ </span>` + `<span class="command" style="color: white;"> ${command}</span>`;
-        cmdInput.setAttribute('contenteditable', 'false');
+        cmdInput.setAttribute('contenteditable', 'true');
         cmdInput.style.padding = '';
         handleCommand(command);
         cmdInput.innerHTML = '';
@@ -193,7 +193,7 @@ function handleCommand(command) {
                     }, 2000);
                 });
             } else {
-                simulateTerminalResponse('Access denied. Incorrect password.');
+                simulateTerminalResponse('Access denied! Incorrect password.');
                 isPasswordPrompted = false; // Reset for the next attempt
             }
         }
