@@ -173,7 +173,7 @@ function handleCommand(command) {
         } else {
             const password = command.toLowerCase().trim(); // Replace this with actual password check logic
 
-            if (password === '3581') {
+            if (password === '0852') {
                 simulateTerminalResponse('Password correct. Connecting to makson.js...');
 
                 countdown(5, () => {
