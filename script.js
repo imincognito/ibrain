@@ -565,4 +565,3 @@ function takePhoto() {
         simulateTerminalResponse('Error: Camera access is not supported in this browser.');
     }
 }
-
