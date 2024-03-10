@@ -31,17 +31,7 @@
     </div>
     
     <script>
-        function togglePlaceholder() {
-            var placeholder = document.getElementById('cmd1');
-
-            if (placeholder.innerHTML.trim() === '') {
-                // If the placeholder is empty, show "Type inside me"
-                placeholder.innerHTML = 'Type your message here...';
-            } else {
-                // If the placeholder is not empty, hide it
-                placeholder.innerHTML = '';
-            }
-        }
+       
 
         document.addEventListener("DOMContentLoaded", function () {
             var textController = document.querySelector('.textController');
@@ -92,31 +82,10 @@
             }
         });
 
-        cmd1Element.addEventListener('focus', function() {
-            // Hide "Type inside me" when input is focused
-            var placeholder = document.getElementById('cmd1');
-            placeholder.innerHTML = '';
-        });
+       
 
-        cmd1Element.addEventListener('blur', function() {
-            // Show "Type inside me" when input loses focus if it's empty
-            var placeholder = document.getElementById('cmd1');
-            if (placeholder.innerHTML.trim() === '' && cmd1Element !== document.activeElement) {
-                placeholder.innerHTML = 'Type your message here...';
-            }
-        });
-
-        cmd1Element.addEventListener('keydown', function(event) {
-            if (event.key === 'Enter') {
-                var writeElement = document.querySelector('.write');
-                writeElement.style.display = '';
-                //*    writeElement.innerHTML = 'write';
-
-                // Show "Type inside me" again
-                var placeholder = document.getElementById('cmd1');
-                placeholder.innerHTML = 'Type your message here...';
-            }
-        });
+        
+        
     </script>
     
     <script src="script.js"></script>
