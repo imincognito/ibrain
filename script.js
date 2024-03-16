@@ -16,7 +16,7 @@ cmdInput.addEventListener('keydown', async (event) => {
         cmdInput.setAttribute('contenteditable', 'true');
         cmdInput.style.padding = '';
         handleCommand(command);
-        cmdInput.innerHTML = '';
+        cmdInput.innerHTML
         isWelcomeMessage = true;
     }
 });
