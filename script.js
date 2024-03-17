@@ -1,5 +1,5 @@
 const outputDiv = document.getElementById('output');
-const cmdInput = document.getElementById('cmd1');
+const cmdInput = document.getElementById('cmd');
 let isWelcomeMessage = true;
 let isWelcomeComplete = false;
 let maksonConnected = false;
