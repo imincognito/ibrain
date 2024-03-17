@@ -48,9 +48,9 @@ body {
 }
 
 
-#cmd, .cmd  {
+#cmd1, .cmd  {
     display: block;
-    background-color:;
+    background-color: #000;
     flex: 1;
     outline: none;
     border-bottom: 1px solid #00BCF9;
@@ -61,7 +61,7 @@ body {
 
     /* Red color for command output */
 }
-#cmd, .cmd {
+#cmd1, .cmd {
     overflow-y: auto;
 }
 #user-input, .user-input {
